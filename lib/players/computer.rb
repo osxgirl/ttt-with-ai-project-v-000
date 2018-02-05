@@ -20,6 +20,8 @@ module Players
                 elsif board.cells[7] == " "
                 "8"
             end
+            input = rand(1..9).to_s
+            input
         end
     end
 end
